@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live monitor</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body> 
+    <div class="fixTop">
+        <header class="section header">
+            <div class="section__wrapper">
+                <div class="section__content">
+                    <img src="assets/images/logo.svg" alt="logo" class="logo header__logo">
+                    <nav class="menu header__menu">
+                        <ul class="menu__list">
+                            <li><a href="#general" class="menu__link">главная</a></li>
+                            <li><a href="#opportunities" class="menu__link">возможности</a></li>
+                            <li><a href="#liveMonitor" class="menu__link">live monitor</a></li>
+                            <li><a href="#feedback" class="menu__link">обратная связь</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+    <main class="main">
+        <section class="section general" id="general">
+            <div class="section__wrapper">
+                <div class="section__content info general__info">
+                    <div class="info__content">
+                        <h1 class="info__caption">live <span class="info__caption--pink">monitor</span></h1>
+                        <p class="info__description">мониторинг всех показателей вашего предприятия в одном месте</p>
+                        <button class="button info__button button--pink">заказать решение</button>
+                        <button class="button info__button">презентация</button>
+                    </div>
+                    <img src="assets/images/sphere.png" alt="sphere" class="info__image">
+                </div>
+            </div>
+        </section>
+        <section class="section opportunities" id="opportunities">
+            <div class="section__wrapper">
+                <h2 class="section__caption">возможности</h2>
+                <div class="section__content features x">
+                    <ul class="features__list">
+                        <li class="features__item features__item--image01">1 широкий перечень датчиков и показаний: электроэнергия, температура, водоснабжение, CO2, влажность, освещенность, уровень шума и др.</li>
+                        <li class="features__item features__item--image02 push">2 возможность постоянно видеть текущие показатели по всем датчикам в режиме реального времени с любого устройства.</li>
+                        <li class="features__item features__item--image03">3 возможность просматривать историю значений с высокой детализацией (вплоть до секунды) в виде наглядных графиков</li>
+                        <li class="features__item features__item--image04">4 гибкая настройка каждого датчика и отображения его параметров в виде различных графиков, чартов и т.д.</li>
+                        <li class="features__item features__item--image05">5 возможность получать сообщения о выходе значений показателей из диапазона нормы по любому удобному каналу - электронная почта, telegram, prometheus и др.</li>
+                        <li class="features__item features__item--image06">6 гибкая настройка параметров нормы для каждого показателя: выбор диапазона значений нормы, параметров времени отклонения значений от нормы для создания уведомления</li>
+                    </ul>                    
+                </div>
+            </div>
+        </section>
+        <section class="section liveMonitor" id="liveMonitor">
+            <div class="section__wrapper">
+                <h2 class="section__caption">live monitor</h2>
+                <div class="section__content"></div>
+            </div>
+        </section>
+        <section class="section feedback" id="feedback">
+            <div class="section__wrapper">
+                <h2 class="section__caption">обратная связь</h2>
+                <div class="section__content"></div>
+            </div>
+        </section>
+    </main>
+    <footer class="section footer">
+        <div class="section__wrapper"></div>
+        <div class="section__content"></div>
+    </footer>
 </body>
 </html>
