@@ -14,6 +14,13 @@ html {
     z-index: 100;
 }
 
+.anchor {
+    height: 0;
+    position: relative;
+    top: -100px;
+    width: 0;
+}
+
 .section {
     background: #120510; 
     border: 1px solid transparent;  
