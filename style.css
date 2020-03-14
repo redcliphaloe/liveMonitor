@@ -461,6 +461,11 @@ html {
         min-height: 91.5254vh;
     }
     
+    .section .section__wrapper {
+        margin: auto;
+        max-width: 71.875vw;
+    }
+
     .section .section__caption {
         color: #CB0E74;
         font-size: 48px;
@@ -707,7 +712,8 @@ html {
     }
     
     .info2 .info2__image {
-        margin: 0 40px 0 0;
+        height: 330px;
+        margin: auto 40px auto 0;
     }
     
     .info2 .info2__content {
