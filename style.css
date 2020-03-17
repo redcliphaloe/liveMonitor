@@ -79,6 +79,10 @@ html {
     }
 }
 
+.navbar {
+    display: none;
+}
+
 .header .header__menu {
     flex-basis: 785px;    
     margin: 11px 0 0 0;
@@ -110,10 +114,6 @@ html {
 .main {
     margin-top: 100px;
 }
-
-/* .general.section {
-    min-height: 980px;
-} */
 
 .general .general__info {
     margin: -26px 0 0 0;
@@ -579,17 +579,83 @@ html {
     .section .section__wrapper {
         max-width: 90vw;
     }
-    /* .section {
-        background: lightslategray;
-    }
-    
-    .section:nth-of-type(even) {
-        background: lightgoldenrodyellow;
-    }     */
-
 }
 
 @media (max-width: 640px) {
+    .liveMonitor .anchor {
+        top: -49px;
+    }
+
+    .liveMonitor .anchor {
+        top: -50px;
+    }
+
+    .section .section__caption {
+        font-size: 38px;
+        margin: 20px 0;        
+    }
+
+    .feedback.section .section__caption {
+        margin: 20px 0;        
+    }    
+
+    .header.section {
+        min-height: 50px;
+    }
+
+    .header.section .section__content {
+        min-height: 50px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .navbar {
+        background: #120510;
+        border: none;
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navbar-brand {
+        padding: 5px;
+    }
+
+    .header .header__logo {
+        display: none;
+    }
+
+    .main {
+        margin-top: 50px;
+    }
+
+    .info .info__content {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    } 
+
+    .info .info__caption {
+        font-size: 66px;
+        line-height: 102px;
+        margin: 50px 0 0 0;
+    } 
+
+    .info .info__button {
+        display: block;
+        margin: 0 auto 20px;
+    }    
+
+    .info .info__button:last-of-type {
+        margin: 0 auto 20px;
+    }    
+
+    .info .info__description {
+        margin: 80px 0 80px;
+    }     
+
     .info .info__image {
         display: none;
     }
@@ -601,17 +667,26 @@ html {
     .features .features__item {
         font-size: 20px;
         line-height: 24px;
+        margin: 20px 0 0 0;
         max-width: 100%;
     }
 
     .features .features__item::before {
-        height: 100%;
         left: 40%;
     }    
+
+    .info2 {
+        flex-direction: column;
+    }
 
     .info2 .info2__image {
         width: 100%;
         margin: auto;
+    }
+
+    .info2 .info2__content {
+        border: none;
+        margin: 20px auto;
     }
 
     .info2 .info2__description {
@@ -624,9 +699,19 @@ html {
         display: none;
     }
 
+    .info2 .info2__arrow {
+        position: static;
+    }
+
+    .liveMonitor .button {
+        margin: 20px auto;
+    }
+
+    .form .form__description {
+        line-height: 30px;;
+    }
+
     .form .form__input {
         flex-basis: 100%;
     }
-
-
 }
