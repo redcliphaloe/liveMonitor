@@ -21,6 +21,10 @@ html {
     width: 0;
 }
 
+.liveMonitor .anchor {
+    top: -100px;
+}
+
 .section {
     background: #120510; 
     border: 1px solid transparent;  
