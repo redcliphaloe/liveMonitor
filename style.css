@@ -610,7 +610,7 @@ html {
     }    
 
     .info2 .info2__image {
-        height: 100%;
+        width: 100%;
         margin: auto;
     }
 
