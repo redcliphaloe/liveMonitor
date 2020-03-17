@@ -261,33 +261,33 @@ html {
 }
 
 .features .features__item--image01::before {
-    background: url("assets/images/feature01.png") no-repeat left bottom,
-    url("assets/images/pinkRectangle.jpg") no-repeat right top;
+    background: url("assets/images/feature01.png") no-repeat;
+    background-size: contain;
 }
 
 .features .features__item--image02::before {
-    background: url("assets/images/feature02.png") no-repeat left bottom,
-    url("assets/images/pinkRectangle.jpg") no-repeat right top;
+    background: url("assets/images/feature02.png") no-repeat;
+    background-size: contain;
 }
 
 .features .features__item--image03::before {
-    background: url("assets/images/feature03.png") no-repeat left bottom,
-    url("assets/images/pinkRectangle.jpg") no-repeat right top;
+    background: url("assets/images/feature03.png") no-repeat;
+    background-size: contain;
 }
 
 .features .features__item--image04::before {
-    background: url("assets/images/feature04.png") no-repeat left bottom,
-    url("assets/images/pinkRectangle.jpg") no-repeat right top;
+    background: url("assets/images/feature04.png") no-repeat;
+    background-size: contain;
 }
 
 .features .features__item--image05::before {
-    background: url("assets/images/feature05.png") no-repeat left bottom,
-    url("assets/images/pinkRectangle.jpg") no-repeat right top;
+    background: url("assets/images/feature05.png") no-repeat;
+    background-size: contain;
 }
 
 .features .features__item--image06::before {
-    background: url("assets/images/feature06.png") no-repeat left bottom,
-    url("assets/images/pinkRectangle.jpg") no-repeat right top;
+    background: url("assets/images/feature06.png") no-repeat;
+    background-size: contain;
 }
 
 .liveMonitor.section .section__content {
@@ -531,36 +531,6 @@ html {
     
     .features .features__item::before {
         height: 12.5424vh;
-    }
-    
-    .features .features__item--image01::before {
-        background: url("assets/images/feature01-2.png") no-repeat;
-        background-size: contain;
-    }
-    
-    .features .features__item--image02::before {
-        background: url("assets/images/feature02-2.png") no-repeat;
-        background-size: contain;
-    }
-    
-    .features .features__item--image03::before {
-        background: url("assets/images/feature03-2.png") no-repeat;
-        background-size: contain;
-    }
-    
-    .features .features__item--image04::before {
-        background: url("assets/images/feature04-2.png") no-repeat;
-        background-size: contain;
-    }
-    
-    .features .features__item--image05::before {
-        background: url("assets/images/feature05-2.png") no-repeat;
-        background-size: contain;
-    }
-    
-    .features .features__item--image06::before {
-        background: url("assets/images/feature06-2.png") no-repeat;
-        background-size: contain;
     }
     
     .info2 .info2__image {
