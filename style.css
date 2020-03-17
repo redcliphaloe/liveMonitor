@@ -91,11 +91,12 @@ html {
 
 .menu .menu__link {
     color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
     line-height: 22px;    
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.25s ease;
 }
 
 .menu .menu__link:hover {
@@ -157,6 +158,7 @@ html {
 
 .info .info__image {
     margin: 100px 25px 0 0;
+    border-radius: 50%;
 }
 
 .button {
@@ -173,15 +175,29 @@ html {
     outline: none;
     text-transform: lowercase;   
     width: 257px;     
+    transition: all 0.5s ease;
 }
 
 .button:active {
     cursor: none;
 }
 
-.button--pink {
+.button.button--pink {
     background: #CB0E74;
+    border: 1px solid #120510;
     color: #120510;
+}
+
+.button:hover {
+    background: #CB0E74;
+    border: 1px solid #120510;
+    color: #120510;
+}
+
+.button.button--pink:hover {
+    background: #120510;
+    border: 1px solid #CB0E74;
+    color: #FFFFFF;
 }
 
 .opportunities.section .section__content {
@@ -441,6 +457,7 @@ html {
     text-align: right;
     text-transform: lowercase;
     text-decoration: none;
+    transition: all 0.25s ease;
 }
 
 .contacts .contacts__link:hover {
@@ -760,10 +777,20 @@ html {
     .arrow.arrow--white {
         background: url("assets/images/arrowWhite.svg") center no-repeat;
     }
+
+    .arrow.arrow--white:hover {
+        background: url("assets/images/arrowPink.svg") center no-repeat;
+        transform: rotate(180deg);
+    }    
     
     .arrow.arrow--pink {
         background: url("assets/images/arrowPink.svg") center no-repeat;
     }
+
+    .arrow.arrow--pink:hover {
+        background: url("assets/images/arrowWhite.svg") center no-repeat;
+        transform: rotate(180deg);
+    }    
     
     .info2 .info2__arrow {
         position: absolute;
