@@ -17,7 +17,7 @@
                     <img src="assets/images/logo.svg" alt="logo" class="logo header__logo">
                     <nav class="menu header__menu">
                         <ul class="menu__list">
-                            <li><a href="#general" class="menu__link scrollToAnchor">главная</a></li>
+                            <li><a href="#general" class="menu__link scrollToAnchor menu__link--active">главная</a></li>
                             <li><a href="#opportunities" class="menu__link scrollToAnchor">возможности</a></li>
                             <li><a href="#liveMonitor" class="menu__link scrollToAnchor">live monitor</a></li>
                             <li><a href="#feedback" class="menu__link scrollToAnchor">обратная связь</a></li>
@@ -41,10 +41,10 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li class="scrollToAnchor"><a href="#general">главная</a></li>
-                                        <li class="scrollToAnchor"><a href="#opportunities">возможности</a></li>
-                                        <li class="scrollToAnchor"><a href="#liveMonitor">live monitor</a></li>
-                                        <li class="scrollToAnchor"><a href="#feedback">обратная связь</a></li>
+                                        <li><a href="#general"  class="scrollToAnchor menu__link--active">главная</a></li>
+                                        <li><a href="#opportunities" class="scrollToAnchor">возможности</a></li>
+                                        <li><a href="#liveMonitor" class="scrollToAnchor">live monitor</a></li>
+                                        <li><a href="#feedback" class="scrollToAnchor">обратная связь</a></li>
                                     </ul>
                                 </div><!-- /.navbar-collapse -->
                             </div><!-- /.container-fluid -->
@@ -92,7 +92,15 @@
                 <h2 class="section__caption">live monitor</h2>
                 <div class="section__content">
                     <div class="info2 liveMonitor__info2">
-                        <img src="assets/images/screens.png" alt="screens" class="info2__image">
+                        <!-- <img src="assets/images/screens.png" alt="screens" class="info2__image"> -->
+                        <div class="slider info2__image">
+                            <!-- <img src="assets/images/screens.png" alt="screens" class="info2__image slider__image slider__image--left">
+                            <img src="assets/images/screens.png" alt="screens" class="info2__image slider__image slider__image--center">
+                            <img src="assets/images/screens.png" alt="screens" class="info2__image slider__image slider__image--right">                           -->
+                            <div class="slider__image slider__image--left"></div>
+                            <div class="slider__image slider__image--center"></div>
+                            <div class="slider__image slider__image--right"></div>                            
+                        </div>
                         <div class="info2__content">
                             <h3 class="info2__caption">Заголовок</span></h3>
                             <p class="info2__description">
@@ -100,8 +108,8 @@
                                 <br><br>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                             </p>
-                            <button class="arrow info2__arrow arrow--white"></button>
-                            <button class="arrow info2__arrow arrow--pink"></button>
+                            <button class="arrow info2__arrow arrow--white slider__button"></button>
+                            <button class="arrow info2__arrow arrow--pink slider__button slider__button--direction--right"></button>
                         </div>
                     </div>
                     <button class="button button--pink">презентация</button>
