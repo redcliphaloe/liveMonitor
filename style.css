@@ -364,7 +364,7 @@ html {
 }
 
 .arrow:active {
-    cursor: none;
+    /* cursor: none; */
 }
 
 .arrow.arrow--white {
@@ -723,6 +723,26 @@ html {
     .info2 .info2__arrow {
         position: static;
     }
+
+    .arrow.arrow--white:hover {
+        background: url("assets/images/arrowWhite.svg") center no-repeat;
+        transform: rotate(360deg);
+    }   
+    
+    .arrow.arrow--pink:hover {
+        background: url("assets/images/arrowWhite.svg") center no-repeat;
+        transform: rotate(180deg);
+    }
+
+    .arrow.arrow--white:active {
+        background: url("assets/images/arrowPink.svg") center no-repeat;
+        transform: rotate(180deg);
+    }    
+ 
+    .arrow.arrow--pink:active {
+        background: url("assets/images/arrowPink.svg") center no-repeat;
+        transform: rotate(360deg);
+    }        
 
     .liveMonitor .button {
         margin: 20px auto;

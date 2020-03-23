@@ -42,6 +42,7 @@
         arrow.addEventListener('click', function () {    
             arrows.forEach(arrow => {
                 arrow.disabled = 'true';
+                arrow.style.cursor = 'pointer';
             });               
             clearTimeout(timerId);             
             if (arrow.classList.contains('slider__button--direction--right')) {
