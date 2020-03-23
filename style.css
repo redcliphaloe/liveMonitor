@@ -377,12 +377,13 @@ html {
 }    
 
 .arrow.arrow--pink {
-    background: url("assets/images/arrowPink.svg") center no-repeat;
+    background: url("assets/images/arrowWhite.svg") center no-repeat;
+    transform: rotate(180deg);
 }
 
 .arrow.arrow--pink:hover {
-    background: url("assets/images/arrowWhite.svg") center no-repeat;
-    transform: rotate(180deg);
+    background: url("assets/images/arrowPink.svg") center no-repeat;
+    transform: rotate(360deg);
 }   
 
 .info2 .info2__arrow {
@@ -737,6 +738,10 @@ html {
 }
 
 .slider {
+    height: 28.5468vw;
+    max-height: 395px;
+    max-width: 550px;
+    width: 28.5468vw;
     margin: 0 40px 0 0;
     overflow: hidden;
     position: relative;
@@ -752,9 +757,6 @@ html {
     left: -100%;
     width: 100%;
     height: 100%;
-
-    /* object-fit: contain;
-    object-position: center; */
 }
 
 @media (max-width: 2048px) {

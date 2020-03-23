@@ -26,7 +26,7 @@
         }
     }    
 
-    const srcSliderImages = ['assets/images/screens.png', 'assets/images/slider image 1.png', 'assets/images/sphere.png', 'assets/images/slider image 2.png'];
+    const srcSliderImages = ['assets/images/screens.png', 'assets/images/sphere.png'];
     let srcSliderImagesIndex = 0;
     let lbutton = document.querySelector('.slider__button');
     let rbutton = document.querySelector('.slider__button--direction--right');
